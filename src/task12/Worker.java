@@ -1,3 +1,5 @@
+package task12;
+
 public class Worker {
     private OnTaskDoneListener callback;
 

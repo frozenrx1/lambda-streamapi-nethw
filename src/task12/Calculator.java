@@ -1,3 +1,5 @@
+package task12;
+
 import java.util.function.BinaryOperator;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
@@ -10,7 +12,7 @@ public class Calculator {
     BinaryOperator<Integer> plus = (x, y) -> x + y;
     BinaryOperator<Integer> minus = (x, y) -> x - y;
     BinaryOperator<Integer> multiply = (x, y) -> x * y;
-    
+
     BinaryOperator<Integer> devide = (x, y) -> {
         if (y == 0) {
             System.out.println("Ошибка: деление на ноль");
